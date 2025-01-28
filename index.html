@@ -21,22 +21,40 @@
                 </div>
             </div>
         </div>
-        <div style="background-color: white; width: 100%; padding: 64px;">
+        <div style="display: flex; flex-direction: column; gap: 24pxpx; background-color: white; width: 100%; padding: 64px;">
             <h3>Tell us about yourself</h3>
-            <div>
-                <div>
+            <div style="gap: 16px; display: flex; flex-direction: column;">
+                <div style="gap: 16px; display: flex;">
                     <input type="text" placeholder="First name">
                     <input type="text" placeholder="Last name">
                 </div>
-                <div>
+                <div style="gap: 16px; display: flex; flex-direction: column;">
                     <input type="text" placeholder="Job title">
                     <input type="text" placeholder="Business email">
                     <input type="text" placeholder="Phone number">
                 </div>
-                <button>Continue</button>
+                <div>
+                    <button>Continue</button>
+                </div>
             </div>
         </div>
     </div>    
 </div>
 
+<style>
+    input {
+        width: 100%;
+        padding: 16px;
+        width: 100%;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+    }
 
+    button {
+        padding: 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #0672CB;
+        color: white;
+    }
+</style>
